@@ -210,9 +210,9 @@ img {
 .home__img {
   position: absolute;
   right: 0;
-  bottom: 10%;
+  bottom: 50%;
   width: 260px;
-  transform: translateY(50%);
+  transform: translate(40%, -20%);
 }
 .home__blob {
   fill: var(--first-color);

@@ -196,12 +196,16 @@ img {
 }
 .home__social {
   display: flex;
-  flex-direction: column;
+  flex-direction: center;
+  align-items: center;
+  margin-top: 0px;
 }
 .home__social-icon {
   width: max-content;
   margin-bottom: var(--mb-2);
   font-size: 1.5rem;
+  margin: 0 10px;
+  text-decoration: none;
   color: var(--second-color);
 }
 .home__social-icon:hover {
@@ -211,15 +215,20 @@ img {
   position: absolute;
   right: 0;
   bottom: 50%;
-  width: 260px;
+  height: auto;
+  width: 200px;
   transform: translate(40%, -20%);
+  
 }
 .home__blob {
   fill: var(--first-color);
+ 
+  height: auto;
 }
 .home__blob-img {
   width: 360px;
 }
+
 
 /*BUTTONS*/
 .button {
@@ -245,10 +254,13 @@ img {
 }
 .about__img {
   justify-self: center;
+  
 }
 .about__img img {
   width: 200px;
-  border-radius: 0.5rem;
+  border-radius: 2rem;
+  height: 250px
+
 }
 
 /* ===== SKILLS =====*/
@@ -298,16 +310,18 @@ img {
   width: 85%;
 }
 .skills__js {
-  width: 65%;
+  width: 80%;
 }
 .skills__java {
-  width: 85%;
+  width: 95%;
 }
 .skills__Cpp {
-    width:95%;
+    width:90%;
 }
 .skills__img {
-  border-radius: 0.5rem;
+  border-radius: 2rem;
+  margin-top: 20%;
+
 }
 
 /* ===== WORK =====*/
@@ -488,3 +502,6 @@ img {
     width: 450px;
   }
 } 
+
+
+
